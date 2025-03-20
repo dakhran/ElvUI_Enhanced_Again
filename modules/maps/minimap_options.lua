@@ -193,12 +193,12 @@ local function ConfigTable()
             }
         }
     }
-    E.Options.args.maps.args.minimap.args.locationTextGroup.args.locationText.values = {
-		['MOUSEOVER'] = L['Minimap Mouseover'],
-		['SHOW'] = L['Always Display'],
-		['ABOVE'] = L['Above Minimap'],
-		['HIDE'] = L['Hide'],
-	}
+    E.Options.args.maps.args.minimap.args.cluster.args.locationTextGroup.args.locationText.values = {
+        ['MOUSEOVER'] = L['Minimap Mouseover'],
+        ['SHOW'] = L['Always Display'],
+        ['ABOVE'] = L['Above Minimap'],
+        ['HIDE'] = L['Hide'],
+    }
 end
 
 
